@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+body {
+    
+    align-items: center;
+    min-height: 100vh;
+    
+
+}
+
+#wrapper {
+    width: 1440px;
+    position: fixed;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.cars {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    margin-left: 300px;
+    padding-top: 100px;
+    position: fixed;
+    
+
+}
+
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 0;
+    border-top: 20px;
+    line-height: 2;
+    
+    
+
+    
+    
+    
+    
+}
+
+h1, p {
+    padding: 30px;
+    margin-left: 10px;
+}
+
+.car {
+    padding-left: 40px;
+    margin-top: 40px;
+    margin-bottom: px;
+}
+
+.car1 {
+    background-color: hsl(31, 77%, 52%);
+    width: 270px;
+    margin-left: ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.car2 {
+    background-color: hsl(184, 100%, 22%);
+    width: 270px;
+    
+}
+
+.car3{
+    background-color: hsl(179, 100%, 13%);
+    width: 270px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+.submit {
+    padding: 10px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    width: 50%;
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+.submit:hover {
+    background-color: cadetblue;
+}
+
+#learn1 {
+    color: hsl(31, 77%, 52%);
+}
+
+#learn2 {
+    color: hsl(184, 100%, 22%);
+}
+
+#learn3 {
+    color: hsl(179, 100%, 13%);
+}
